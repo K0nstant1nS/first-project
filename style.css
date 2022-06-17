@@ -67,7 +67,7 @@
 .description{
   display:flex;
   justify-content: center;
-  margin: 100px auto;
+  padding-top: 100px;
 }
 
 .two-columns{
@@ -101,3 +101,67 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.techniques{
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-title{
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.cards__item{
+  width: 240px;
+}
+
+.cards__item:nth-child(3n+2){
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cards__image{
+  margin: 60px 40px 43px;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+
+.cards__title{
+  text-align: center;
+  margin: 0;
+}
+
+.cards__description{
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+
