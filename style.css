@@ -105,25 +105,34 @@
 .techniques{
   padding-top: 100px;
   width: 80%;
+}
+
+.content__techniques{
   margin: 0 auto;
 }
 
 .section-title{
   width: 60%;
-  margin: 0 auto 20px;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
 }
 
+.techniques__section-title{
+  margin: 0 auto 20px;
+}
+
 .section-subtitle{
   width: 60%;
-  margin: 0 auto;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.techniques__section-subtitle{
+  margin: 0 auto;
 }
 
 .cards{
@@ -163,5 +172,48 @@
   line-height: 23px;
   font-size: 18px;
 }
+
+.digits{
+  padding-top: 100px;
+}
+
+.digits__section-title{
+  margin: 0 auto 20px;
+}
+
+.digits__section-subtitle{
+  margin: 0 auto;
+}
+
+.digits__table{
+  margin: 0 auto;
+}
+
+.table{
+  width: 1100px;
+}
+
+.table__row{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table__cell{
+  padding-top: 60px;
+  width: 250px;
+}
+
+.table__heading{
+ line-height: 1.15;
+ font-weight: 700;
+ font-size: 24px;
+}
+
+.table__text{
+line-height: 1.2;
+margin-top: 20px;
+}
+
 
 
