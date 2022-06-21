@@ -16,7 +16,7 @@
     <header class="header">
       <img alt="" src="./images/logo_place_header.svg" class="logo logo_place_header">
       <img alt="" src="./images/header-image.png" class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-container"><div class="header__square-pic"></div></div>
       <h1 class="header__title">
         Научиться учиться
       </h1>
@@ -41,7 +41,7 @@
       <section class="techniques content__techniques">
         <h2 class="section-title techniques__section-title">Техники обучения</h2>
         <h3 class="section-subtitle techniques__section-subtitle">Пять практик от Барбары Оакли</h3>
-        <ul class="cards">
+        <ul class="cards techniques__cards">
           <li class="cards__item">
             <img alt="" src="./images/cards-attention.png" class="cards__image">
             <h4 class="cards__title">Два вида внимания</h4>
@@ -69,9 +69,34 @@
           </li>
         </ul>
       </section>
+      <section class="video">
+        <h2 class="section-title video__section-title">Видео нa TED</h2>
+        <h3 class="section-subtitle video__section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <div class="video__iframes">
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class="oakley">
+        <div class="two-columns">
+          <h5 class="two-columns__brief">История Барбары Оакли.</h5>
+
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным.
+               В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры.
+                Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам.
+                 Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
+        </div>
+      </section>
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <a href="#" class="feynman__link">Подробнее→</a>
+        <!-- <img src="./images/feynman.png" class="feynman__img" alt="feynman"> -->
+      </section>
       <section class="digits content__digits">
         <h2 class="section-title digits__section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle digits__section-subtitle">Пять практик от Барбары Оакли</h3>
+        <h3 class="section-subtitle digits__section-subtitle">Про учёбу и мозг</h3>
         <table class="table digits__table">
           <tr class="table__row">
             <td class="table__cell table__cell_size_250 table__cell_margin-top_60">
@@ -113,9 +138,22 @@
           </tr>
         </table>
       </section>
+      <section class="khan">
+        <div class="khan__container">
+          <h4 class="khan__author">Салман Хан</h4>
+          <h3 class="khan__title">Весь мир — школа</h3>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
+            Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <h6 class="khan__quote-author">Джордж Лукас</h6>
+          <span class="khan__quote-author-subline">Кинорежиссер, продюсер</span>
+          <div class="khan__book-container"><div class="khan__book-pic"></div>
+            <a href="#" class="khan__buy-link">Купить книгу→</a>
+          </div>
+        </div>
+      </section>
       <section class="kaufman content__kaufman">
-        <h2 class="section-title kaufman__section-title section-title_theme_dark">Цифры и факты</h2>
-        <h3 class="section-subtitle kaufman__section-subtitle section-subtitle_theme_dark">Пять практик от Барбары Оакли</h3>
+        <h2 class="section-title kaufman__section-title section-title_theme_dark">Принципы обучения</h2>
+        <h3 class="section-subtitle kaufman__section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <table class="table kaufman__table table_theme_dark">
           <tr class="table__row">
             <td class="table__cell table__cell_theme_dark table__cell_size_200 table__cell_margin-top_80">
@@ -162,6 +200,7 @@
             </td>
           </tr>
         </table>
+        <img src="./images/kaufman-triangle.svg" alt="" class="kaufman__triangle">
       </section>
       <section class="resources content__resources">
         <h2 class="section-title resources__section-title">Полезные ресурсы</h2>
